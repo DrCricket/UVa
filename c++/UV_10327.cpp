@@ -16,6 +16,8 @@ int main()
 				cin >> array[j];
 			}
 			int ans=0;
+
+
 			for(int x=0;x<n-1;x++)
 			{
 				for(int y=x+1;y<n;y++)
