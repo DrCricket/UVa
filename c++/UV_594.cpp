@@ -9,7 +9,7 @@ int main()
 {
     /*unsigned int t;
     cin >> t;
-    int lower = t&0x00ff;
+    int lower = t&0x00ff; // ERROR ... nibble not byte !
     int upper = t&0xff00;
     int32_t out;
     out = (out&0xff00)|(upper);
