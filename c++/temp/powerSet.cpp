@@ -5,16 +5,12 @@
 
 using namespace std;
 
-int main()
-{
-    void powerSet(char*);
-    char arr[] = {'a','b','c','d'};
-    powerSet(arr);
-}
-
 void powerSet(char* arr)
 {
     int size = sizeof(arr)/sizeof(arr[0]);
+    cout<< size << endl;
+    cout << endl;
+
     int powset = pow(2,size);
 
     for(int i=0;i<powset;i++)
@@ -26,3 +22,11 @@ void powerSet(char* arr)
         cout<<endl;
     }
 }
+
+
+int main()
+{
+    char arr[] = {'a','b','c'};
+    powerSet(arr);
+}
+
